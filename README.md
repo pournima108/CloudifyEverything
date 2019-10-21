@@ -2,13 +2,15 @@
 Steps to follow to test the working solution on Azure Ml Studio for Prediction of card approval using Machine learning algorithm.
 
 - Create a new Azure account
--  Go through the given link https://gallery.cortanaintelligence.com/Experiment/Experiment-created-on-10-18-2019
+-  Go through the given link https://gallery.cortanaintelligence.com/Experiment/Credit-Card-Approval-Team-Geek-Squad
+
+
 -  or Use the below API to test the service in postman:
 Method:POST
 url:https://ussouthcentral.services.azureml.net/workspaces/c18e2523b8254de78d7291646a053282/services/6864df8a13af4d1fbd74c9c510890975/execute?api-version=2.0&details=true
 
    Headers:
-Authorization:BearerQ+BYxmDaiVmoaHxJ6Mn8gwQbxQWIHO1iD0mM+W4Y4joTFzNPYlSZXcxlxJZMCTHE1ZCJdJcdOPYmGMRs4hg1dw==
+Authorization:Bearer Q+BYxmDaiVmoaHxJ6Mn8gwQbxQWIHO1iD0mM+W4Y4joTFzNPYlSZXcxlxJZMCTHE1ZCJdJcdOPYmGMRs4hg1dw==
 
    Content-Type : application/json
    Body :
